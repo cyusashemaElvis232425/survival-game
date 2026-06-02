@@ -5,7 +5,7 @@
 * **Student ID:** [Your Student ID Here]
 
 ### Deploy Artifact Links
-* **Live Netlify URL:** https://pixel-survivor-game-232425.netlify.app
+* **Live URL:** https://cyusashemaElvis232425.github.io/survival-game/
 * **GitHub Repository URL:** https://github.com/cyusashemaElvis232425/survival-game
 
 ---
