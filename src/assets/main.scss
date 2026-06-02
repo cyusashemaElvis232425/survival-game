@@ -1,0 +1,33 @@
+// SASS Variables
+$color-bg: #0f172a;
+$color-surface: #1e293b;
+$color-primary: #38bdf8;
+$color-danger: #ef4444;
+$color-text: #f8fafc;
+
+// SASS Mixins (These MUST be here so your components can use them!)
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin retro-panel {
+  background: $color-surface;
+  border: 2px solid $color-primary;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+// Global Body Styles
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: $color-bg;
+  color: $color-text;
+  min-height: 100vh;
+  @include flex-center;
+  overflow: hidden;
+  user-select: none;
+}
